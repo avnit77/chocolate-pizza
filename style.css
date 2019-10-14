@@ -1,0 +1,94 @@
+header{
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    justify-content: space-between;
+}
+
+.title{ display: flex;
+        flex-direction: row;
+}
+h2{
+    margin-bottom: 0px;
+}
+.logo {
+    margin-top: 25px;
+}
+.subheader{
+    margin: 0px;
+}
+aside {
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+}
+.social-media {
+    margin-right: 15px;
+}
+.article-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: flex-end;
+}
+.article-title {
+    display: flex;
+    flex-direction: column;
+}
+h1 {
+    margin-bottom: 0px;
+}
+.print {
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+figure{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 0px;
+}
+.recipe {
+    background-image: url("lab-assets/list-bg.png");
+}
+
+ul {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    list-style: none;
+}
+input:checked + .step{
+    text-decoration: line-through;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    justify-content: space-between;
+}
+
+.vanessa {
+    margin-top: 25px;
+}
+h3{
+    margin-bottom: 0px;
+    margin-top: 40px;
+}
+
+.share-recipe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 50px;
+    margin-top: 60px;
+    margin-left: 50px;
+    margin-right: 10px;
+    background-color: rgb(158, 82, 12);
+    color: white;
+}
+.copyright {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
